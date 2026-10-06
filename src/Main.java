@@ -11,16 +11,16 @@ public class Main {
 
         //Pedimos los datos de entrada del usuario
         System.out.print("Ingrese el primer numero: ");
-        int num1 = entrada.nextint();
+        int num1 = entrada.nextInt();
 
         System.out.print("Ingrese el segundo numero: ");
-        int num2 = entrada.nextint();
+        int num2 = entrada.nextInt();
 
         //Creamos un objeto de tipo calculadora
-        Calculadra calculadra = new Calculadora();
+        Calculadora calculadora = new Calculadora();
 
         //Realizamos las operaciones correspondientes
-        int suma = calculadra.suma(num1, num2);
+        int suma = calculadora.suma(num1, num2);
         int resta = calculadora.resta(num1, num2);
         int multiplicacion = calculadora.multiplicacion(num1, num2);
         int division = calculadora.division(num1, num2);
